@@ -1,13 +1,14 @@
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.*;
-public class Anagrams {
-
+public class Anagrams2 {
+    /*
     private Set<String> n;
     private Set<String> words;
     private LetterInventory s;
     private LetterInventory li;
     private Set<String> solutionSet = new TreeSet<>();
+    //Constructor initializes a Set with all of the words of the dictionary
     public Anagrams(Set<String> dictionary){
         this.n = dictionary;
     }
@@ -17,8 +18,7 @@ public class Anagrams {
         for (String g : getWords(li.toString())) {
             if (li.contains(g)) {
                 solutionSet.add(g);
-//                li.subtract(g);
-                LetterInventory next = new LetterInventory(li.toString());
+                li.subtract(g);
                 if(li.isEmpty()){
                     System.out.print(solutionSet);
                     solutionSet.clear();
@@ -49,6 +49,8 @@ public class Anagrams {
     public void print(String phrase, int max){
 
     }
+
+     */
 
 }
 
